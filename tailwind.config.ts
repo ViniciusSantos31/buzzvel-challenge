@@ -12,6 +12,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        "circles": "url('/assets/images/circles.svg')",
+      },
+      fontSize: {
+        md: "1rem",
+      }
     },
   },
   plugins: [],
