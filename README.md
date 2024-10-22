@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Soller Buzvell Website
+
+Welcome to the **Soller Buzvell** project! This is a modern web application built using **Next.js**, styled with **TailwindCSS**, and enhanced with animations from **Framer Motion**. The project is deployed on **Vercel** and can be accessed at [soller-buzvell.vercel.app](https://soller-buzvell.vercel.app).
+
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running Locally](#running-locally)
+- [Deployment](#deployment)
+
+## Features
+- **Fast and Modern UI**: Built using Next.js for server-side rendering and optimized performance.
+- **Responsive Design**: Fully responsive layout, styled with TailwindCSS for modern and adaptive UI across all devices.
+- **Smooth Animations**: Seamless transitions and animations powered by Framer Motion.
+- **SEO-Friendly**: Optimized for search engines using Next.js built-in tools.
+- **Deployed on Vercel**: Automatic deployment and scaling using Vercel platform.
+
+## Technologies Used
+- **Next.js**: React framework for server-side rendering, static site generation, and more.
+- **TailwindCSS**: A utility-first CSS framework for rapid UI development.
+- **Framer Motion**: A powerful library for animations and gestures in React.
+- **Vercel**: Hosting and deployment platform optimized for Next.js apps.
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow the instructions below.
 
+### Prerequisites
+
+Make sure you have the following installed:
+- **Node.js** (v14 or higher)
+- **npm** or **yarn**
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/soller-buzvell.git
+   cd soller-buzvell
+2. Install the dependencies
+   ```bash
+   # Using npm
+   npm install
+
+   # Using yarn
+   yarn install
+   ```
+
+### Running Locally
+
+After installing the dependencies, you can run the development server:
 ```bash
+# Using npm
 npm run dev
-# or
+
+# Using yarn
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app should now be running at `http://localhost:3000`. Open your browser and visit this URL to see the project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is automatically deployed on **Vercel**. Every push to the `master` branch triggers a deployment. You can access the live version of the project at the following URL:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔗**Live site**: [https://soller-buzvell.vercel.app](https://soller-buzvell.vercel.app)
